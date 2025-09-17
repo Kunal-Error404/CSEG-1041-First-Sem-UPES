@@ -30,10 +30,10 @@ int main(){
     printf("THE SECOND MATRIX IS:\n");
     printmat(arr2,3,3);
     matadd(arr1,3,3,arr2,3,3,arr3,3,3);
-    printf("THE RESULTANT MATRIX AFTER MATRIX ADDITION IS\n:");
+    printf("THE RESULTANT MATRIX AFTER MATRIX ADDITION IS:\n");
     printmat(arr3,3,3);
     matsub(arr1,3,3,arr2,3,3,arr3,3,3);
-    printf("THE RESULTANT MATRIX AFTER MATRIX SUBTRACTION IS\n:");
+    printf("THE RESULTANT MATRIX AFTER MATRIX SUBTRACTION IS:\n");
     printmat(arr3,3,3);
     matmult(arr1,3,3,arr2,3,3,arr3,3,3);
     printf("THE RESULTANT MATRIX AFTER MATRIX MULTIPLICATION IS:\n");
