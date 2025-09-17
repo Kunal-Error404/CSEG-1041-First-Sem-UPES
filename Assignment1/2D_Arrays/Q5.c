@@ -11,6 +11,7 @@ int main(){
     int arr2[3][3];
     printf("ENTER THE VALUES IN THE MATRIX:\n");
     input(arr,3,3);
+    printf("THE MATRIX IS:\n");
     printmat(arr,3,3);
     transpose(arr,3,3,arr2,3,3);
     printf("THE RESULTANT TRANSPOSE MATRIX IS:\n");

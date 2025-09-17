@@ -23,9 +23,11 @@ int main(){
     int arr3[3][3];//arr3 is the resultant matrix
     printf("ENTER THE VALUES IN THE FIRST MATRIX\n");
     input(arr1,3,3);
+    printf("THE FIRST MATRIX IS:\n");
     printmat(arr1,3,3);
     printf("ENTER THE VALUES IN THE SECOND MATRIX\n");
     input(arr2,3,3);
+    printf("THE SECOND MATRIX IS:\n");
     printmat(arr2,3,3);
     matadd(arr1,3,3,arr2,3,3,arr3,3,3);
     printf("THE RESULTANT MATRIX AFTER MATRIX ADDITION IS\n:");
