@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>CSEG-1041 First Semester Assignments – UPES</title>
+  <title>CSEG-1041-First-Sem-UPES</title>
 </head>
 <body>
   <h1>CSEG-1041 First Semester Assignments – UPES</h1>
