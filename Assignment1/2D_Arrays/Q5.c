@@ -1,12 +1,11 @@
 /*Q5. Transpose of a Matrix [4 Marks]
 Write a program to find the transpose of a given 3 × 3 matrix.*/
 
-/*TRANSPOSE OF A MATRIX INVOLVES EXCHANGING ROWS WITH COLUMNS AND VICE VERSA*/
-
 #include <stdio.h>
 void input(int arr[][3],int n,int m);
 void printmat(int arr[][3],int n,int m);
 void transpose(int arr[][3],int m,int n,int arr2[][3],int n1,int m2);
+
 int main(){
     int arr[3][3];
     int arr2[3][3];
@@ -40,7 +39,7 @@ void printmat(int arr[][3],int n,int m){
 void transpose(int arr[][3],int n,int m,int arr2[][3],int n1,int m2){
     for(int i=0;i<n;i++){
         for(int j=0;j<m;j++){
-            arr2[i][j]=arr[j][i];
+            arr2[i][j]=arr[j][i];/*TRANSPOSE OF A MATRIX INVOLVES EXCHANGING ROWS WITH COLUMNS AND VICE VERSA*/
         }
     }
 }

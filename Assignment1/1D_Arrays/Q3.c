@@ -4,12 +4,12 @@ switch-case, print the frequency of each digit.*/
 
 #include <stdio.h>
 void input(int arr[],int n);
-int freq(int arr[],int n);
+int freq(int arr[],int n,int k);
 int main(){
     int arr[10];
-    printf("ENTER THE VALUES:");
+    printf("ENTER THE VALUES:\n");
     input(arr,10);
-    for(int k=0;k<10;k++){
+    for(int k=0;k<10;k++){//array may contain  4 0s, 3 1s etc to 7 9s, so we will use a loop and check frequency of every integer from 0 to 9
        int frequency = freq(arr,10,k);
        switch (frequency){
         case 1:

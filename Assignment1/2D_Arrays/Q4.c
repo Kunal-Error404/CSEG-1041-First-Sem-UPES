@@ -4,6 +4,12 @@ Write a program to input two 3 × 3 matrices. Perform and display:
 (b) Matrix subtraction [2 Marks]
 (c) Matrix multiplication [4 Marks]*/
 
+/*REMEMBER WHENEVER YOU ARE SOLVING MATRICES THERE WILL ALWAYS BE AT LEAST 2 LOOPS
+AND ARR[I][J] IS WIDELY USED.
+OUTER LOOP IS FOR ROWS(here we iterate on to the next rows after the condition is fulfilled)
+INNER LOOP IS FOR COLUMNS.
+*/
+
 #include <stdio.h>
 void input(int arr[][3],int n,int m);
 void printmat(int arr[][3],int n,int m);

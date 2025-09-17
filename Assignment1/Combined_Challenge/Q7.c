@@ -19,11 +19,11 @@ void memory(int arr[][3],int n,int m);
 int main(){
     printf("|=====STUDENT MARKS ANALYSIS TABLE====|\n");
     int arr[5][3]={
-        {95,96,92},
-        {92,89,82},
-        {90,85,76},
-        {84,48,72},
-        {66,59,64}
+        {95,96,92},//student 1
+        {92,89,82},//student 2
+        {90,85,76},//student 3
+        {84,48,72},//student 4
+        {66,59,64}//student 5
         };
     printtable(arr,5,3);
     total(arr,5,3);
@@ -68,7 +68,7 @@ void total(int arr[][3],int n,int m){
 void minavg(int arr[][3],int n,int m){
     //here i will sum every column individually
     float curlowestavg=500;//need something greater than 100
-    int worstsubject = 0;
+    int worstsubject = 0;//counter for subject number
     for(int i=0;i<m;i++){
         int colsum=0;
         
@@ -82,7 +82,7 @@ void minavg(int arr[][3],int n,int m){
         }
       
     }
-    printf("THE CLASS PERFORMED THE WORST IN SUBJECT %d WITH A CLASS AVERAGE OF %f IN THAT PARTICULAR SUBJECT.\n",worstsubject,curlowestavg);
+    printf("THE CLASS PERFORMED THE WORST IN SUBJECT %d WITH A CLASS AVERAGE OF %.2f IN THAT PARTICULAR SUBJECT.\n",worstsubject,curlowestavg);
     
 }
 

@@ -59,7 +59,7 @@ void row(int arr[][4],int n,int m){
         printf("MIN ELEMENT IN ROW %d IS %d\n",i+1,curmin);
     }
 }
-
+//DID THIS BEFORE GETTING TO THE ABOVE SOLUTION,I AM KEEPING IT HERE TI REMEMBER MY MISTAKE
 
     /*for(int i=0;i<n;i++){
         if(arr[0][i]>curmax1){
@@ -76,8 +76,8 @@ void row(int arr[][4],int n,int m){
         }
     }*/
 
-void column(int arr[][4],int n,int m){
-    for(int i = 0;i<m;i++){
+void column(int arr[][4],int n,int m){//j,i,m,n are swapped here wrt to the row function
+    for(int i = 0;i<m;i++){//note here i used i<m not i<n as its opposite of rows
         int curmax = arr[0][i];//taking first element of every column as maximum
         int curmin = arr[0][i];//taking first element of every column as minimum
         for(int j=0;j<n;j++){
