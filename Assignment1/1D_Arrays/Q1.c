@@ -21,12 +21,12 @@ int countodd(int arr[],int n);
 
 int main(){
     int x;
-    printf("ENTER THE NUMBER OF INTEGERS YOU WANT IN THE ARRAY");
+    printf("ENTER THE NUMBER OF INTEGERS YOU WANT IN THE ARRAY:\n");
     scanf("%d",&x);
     int array[2000];
     /*Umm I dont know anything about dynamic memory allocation yet, so im 
     allocating memory for 2000 integers and will use x out of them*/
-    printf("ENTER THE VALUES:");
+    printf("ENTER THE VALUES:\n");
     input(array,x);//calling input function to scan values into array
     printf("THE LARGEST NUMBER IN THE ARRAY IS: %d\n",largest(array,x));
     printf("THE SMALLEST NUMBER IN THE ARRAY IS: %d\n",smallest(array,x));
