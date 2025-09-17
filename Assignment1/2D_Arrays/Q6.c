@@ -55,7 +55,7 @@ void row(int arr[][4],int n,int m){
                 curmin = arr[i][j];
             }
         }
-        printf("MAX ELEMENT IN ROW %d IS %d\n",i+1,curmax);
+        printf("MAX ELEMENT IN ROW %d IS %d\n",i+1,curmax);//doing this outside second loop to utilize the variable i
         printf("MIN ELEMENT IN ROW %d IS %d\n",i+1,curmin);
     }
 }
